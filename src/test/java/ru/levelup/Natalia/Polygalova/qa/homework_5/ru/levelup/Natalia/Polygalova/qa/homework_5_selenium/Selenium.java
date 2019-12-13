@@ -28,4 +28,5 @@ public class Selenium {
     public void tearDownBrowser() {
         driver.quit();
     }
+
 }
