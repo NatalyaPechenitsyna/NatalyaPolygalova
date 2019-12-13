@@ -15,7 +15,7 @@ public class CheckUserTest extends Selenium {
         driver.get("http://users.bugred.ru/");
         assertThat(driver.getTitle(), equalTo("Users"));
 
-       driver.findElement(By.xpath("//a//span[text()='Войти']")).click();
+        driver.findElement(By.xpath("//a//span[text()='Войти']")).click();
 
         driver.findElement(By.name("login")).sendKeys("nataly-pechenitsyna@mail.ru");
         driver.findElement(By.name("password")).sendKeys("7536951");
