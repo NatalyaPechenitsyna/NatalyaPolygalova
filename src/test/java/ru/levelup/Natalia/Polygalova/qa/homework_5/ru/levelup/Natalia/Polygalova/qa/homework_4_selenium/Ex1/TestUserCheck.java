@@ -1,13 +1,14 @@
-package ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Exercise1;
+package ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_4_selenium.Ex1;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Selenium;
+import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_4_selenium.Abstract;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
+public class TestUserCheck extends Abstract {
 
-public class CheckUserTest extends Selenium {
 
     @Test
     public void UserNameCheck() {
@@ -29,4 +30,5 @@ public class CheckUserTest extends Selenium {
         driver.close();
     }
 }
+
 

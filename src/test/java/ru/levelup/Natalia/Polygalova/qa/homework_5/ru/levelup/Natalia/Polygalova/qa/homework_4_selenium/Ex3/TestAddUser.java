@@ -1,9 +1,10 @@
-package ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Exercise3;
+package ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_4_selenium.Ex3;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Selenium;
+import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_4_selenium.Abstract;
 
-public class CheckAddUserTest extends Selenium {
+public class TestAddUser extends Abstract {
 
     @Test
     public void AddCompany() {

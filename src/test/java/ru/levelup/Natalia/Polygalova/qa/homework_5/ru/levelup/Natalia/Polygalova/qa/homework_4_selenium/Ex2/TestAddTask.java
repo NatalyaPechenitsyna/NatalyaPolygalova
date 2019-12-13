@@ -1,13 +1,14 @@
-package ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Exercise2;
+package ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_4_selenium.Ex2;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Selenium;
+import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_4_selenium.Abstract;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
+public class TestAddTask extends Abstract {
 
-public class CheckAddTaskTest extends Selenium {
 
     @Test
     public void AddUser() {
@@ -35,5 +36,3 @@ public class CheckAddTaskTest extends Selenium {
         driver.close();
     }
 }
-
-
