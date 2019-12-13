@@ -3,9 +3,6 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import ru.levelup.Natalia.Polygalova.qa.homework_5.ru.levelup.Natalia.Polygalova.qa.homework_5_selenium.Selenium;
 
-
-
-
 public class CheckAddUserTest extends Selenium {
 
     @Test
