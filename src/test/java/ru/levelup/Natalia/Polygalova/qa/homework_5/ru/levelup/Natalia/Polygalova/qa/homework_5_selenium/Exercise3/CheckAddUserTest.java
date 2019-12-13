@@ -36,8 +36,8 @@ public class CheckAddUserTest extends Selenium {
 
         driver.findElement(By.name("act_create")).sendKeys("swimming");
 
-       driver.findElement(By.id("fat-menu")).click();
-       driver.findElement(By.xpath("//a[text()='Выход']")).click();
+        driver.findElement(By.id("fat-menu")).click();
+        driver.findElement(By.xpath("//a[text()='Выход']")).click();
 
         driver.close();
     }
