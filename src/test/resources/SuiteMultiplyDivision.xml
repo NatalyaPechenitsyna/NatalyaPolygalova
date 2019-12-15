@@ -4,8 +4,10 @@
 
     <test name="MultiplyDivision">
         <classes>
-            <class name="ru.level.qa.test.auto.autumn.test.framework.tests.Multiply"/>
-            <class name="ru.level.qa.test.auto.autumn.test.framework.tests.Divide"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestMultLng"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestMultDbl"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestDivDbl"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestDivLng"/>
         </classes>
     </test>
 </suite>
