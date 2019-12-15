@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteMultiplyDivision">
+
+
+    <test name="MultiplyDivision">
+        <classes>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestMultLng"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestMultDbl"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestDivDbl"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestDivLng"/>
+        </classes>
+    </test>
+</suite>

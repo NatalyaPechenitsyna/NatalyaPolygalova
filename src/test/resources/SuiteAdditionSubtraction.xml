@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteAdditionSubtraction">
+
+
+    <test name="AdditionSubtraction">
+        <classes>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestSumDbl"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestSumLng"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestSubDbl"/>
+            <class name="ru.levelup.Natalia.Polygalova.qa.homework_3.tests.TestSubLng"/>
+        </classes>
+    </test>
+</suite>
